@@ -16,11 +16,5 @@ file=open("Biodata.txt","a")
 file.write("My mother's name is _________________________\n")                                 #append
 file.close()
 
-file=open("Biodata.txt","r")                                                 #read
-c=file.read()
-print(c)
-  
-  
-  file=open("Biodata.txt","r")                                                 #read
 c=file.read()
 print(c)
